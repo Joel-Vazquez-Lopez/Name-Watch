@@ -1,0 +1,38 @@
+Name: Your Name
+
+Background:
+- Your current degree, job, or field
+- Your main interests
+- Your main technical or professional skills
+
+Education:
+- Degree / programme / institution
+- Relevant modules or topics
+
+Projects:
+- Project 1: short description
+- Project 2: short description
+- Project 3: short description
+
+Experience:
+- Relevant work, research, volunteering, or personal experience
+
+Skills:
+- Skill 1
+- Skill 2
+- Skill 3
+
+Strengths:
+- Strength 1 with example
+- Strength 2 with example
+- Strength 3 with example
+
+Goals:
+- What you want to do next
+- Roles, programmes, or areas you are interested in
+
+Interview examples:
+- A challenge you faced
+- A project you are proud of
+- A time you worked in a team
+- A time you learned something quickly

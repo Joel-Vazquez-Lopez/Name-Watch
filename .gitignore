@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local/private user data
+data/profile.txt
+memory/*.json
+outputs/*.md
+
+# Keep folders in git
+!memory/.gitkeep
+!outputs/.gitkeep
+
+# Local backup files created while developing
+*.before_*
