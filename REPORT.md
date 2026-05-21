@@ -12,7 +12,7 @@ NameWatch Live is a privacy-aware AI agent for live audio streams. The system ca
 
 The goal of the project is to extend an AI agent in a practical way: instead of acting only as a chatbot, the agent monitors a live information stream and helps the user react to important moments. In Meeting / Lecture mode, it creates live digests and prioritizes questions directed at the user. In Interview mode, it detects interview-style prompts and suggests answer support. In Video mode, it summarizes key learning points and saves compact notes.
 
-## 2. Motivation and Prior Art
+## 2. Motivation
 
 The motivation for this project was to experiment with the possibilities and limitations of speech-to-text technology in a live AI-agent setting. I wanted to see how useful a small local transcription pipeline could be when combined with an LLM agent, and whether the system could react to live speech quickly enough to feel helpful.
 
@@ -51,7 +51,7 @@ The project is implemented in Python. Audio capture is handled with sounddevice;
 
 The code is organized into separate modules for transcription, buffering, memory, privacy filtering, event detection, interview digestion, and overlay display. This separation made it easier to debug the system and replace earlier over-complicated logic with clearer mode-specific behaviour.
 
-##6. Reflection on Working With AI
+##6. Reflection on Working With AI (done with ai as it was similar to the first project)
 AI coding tools were helpful throughout the assignment, especially for brainstorming, debugging, refactoring, and writing documentation. They helped generate possible architectures and made it faster to test different approaches. For example, the project initially had too many overlapping rules for interview detection, meeting detection, summaries, and fallback alerts. AI assistance helped identify that the design was becoming too complex, and the system was simplified into three focused modes.
 
 However, the process also showed the limits of AI-generated code. Some early versions over-detected questions, missed incomplete transcript chunks, or repeated old alerts. These issues only became clear through real testing with microphone and system audio. The final version improved because I tested the behaviour manually, checked the outputs, and decided when the design needed to change.
