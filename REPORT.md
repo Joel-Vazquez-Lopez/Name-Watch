@@ -52,7 +52,7 @@ The project is implemented in Python. Audio capture is handled with sounddevice;
 
 The code is organized into separate modules for transcription, buffering, memory, privacy filtering, event detection, interview digestion, and overlay display. This separation made it easier to debug the system and replace earlier over-complicated logic with clearer mode-specific behaviour.
 
-##6. Reflection on Working With AI (done with ai as it was similar to the first project)
+## 6. Reflection on Working With AI (done with ai as it was similar to the first project)
 AI coding tools were helpful throughout the assignment, especially for brainstorming, debugging, refactoring, and writing documentation. They helped generate possible architectures and made it faster to test different approaches. For example, the project initially had too many overlapping rules for interview detection, meeting detection, summaries, and fallback alerts. AI assistance helped identify that the design was becoming too complex, and the system was simplified into three focused modes.
 
 However, the process also showed the limits of AI-generated code. Some early versions over-detected questions, missed incomplete transcript chunks, or repeated old alerts. These issues only became clear through real testing with microphone and system audio. The final version improved because I tested the behaviour manually, checked the outputs, and decided when the design needed to change.
@@ -63,6 +63,6 @@ For the demo video, I also experimented with AI-generated media. Some of the ima
 
 Overall, AI made the development process faster, but it did not remove the need for human judgment. The most useful workflow was to use AI as a collaborator for suggestions and debugging while keeping responsibility for testing, design decisions, privacy choices, and final verification.
 
-##7. Limitations and Future Work
+## 7. Limitations and Future Work
 The system is a working prototype, but it is not perfect. Transcription quality depends on audio quality, and the agent may still miss or misinterpret some questions. The current event detection is intentionally lightweight. Future work could improve robustness with better voice activity detection, stronger semantic retrieval, speaker diarization, configurable profiles, and more formal evaluation.
 
