@@ -40,6 +40,7 @@ Meeting / Lecture: detect useful discussion, create live digests, and prioritize
 Interview: detect interview prompts and generate answer support using an optional local profile.
 Video: extract key concepts, explanations, and study notes.
 This design makes the agent easier to control. It also improves the user experience because the same audio stream can be interpreted differently depending on the task.
+```
 
 ## 4. Privacy Design
 Privacy was a core requirement. NameWatch Live avoids storing unnecessary raw data. Raw audio is deleted after transcription, full transcripts are not saved by default, and only a short rolling transcript window is kept temporarily. The app includes a visible checkbox labelled “Do not save notes/memory”. When enabled, the system can still provide live assistance but does not save notes or memory items.
@@ -64,4 +65,4 @@ Overall, AI made the development process faster, but it did not remove the need 
 
 ##7. Limitations and Future Work
 The system is a working prototype, but it is not perfect. Transcription quality depends on audio quality, and the agent may still miss or misinterpret some questions. The current event detection is intentionally lightweight. Future work could improve robustness with better voice activity detection, stronger semantic retrieval, speaker diarization, configurable profiles, and more formal evaluation.
-```
+
